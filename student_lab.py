@@ -1,29 +1,3 @@
-# import sqlite3
-
-# conn = sqlite3.connect('student_lab.db')
-# cursor = conn.cursor()
-
-# # Parameterized insert query
-# insert_query = """
-# INSERT INTO Students (studentId, firstName, lastName, email)
-# VALUES (?, ?, ?, ?)
-# """
-
-# # Data to insert
-# user_data = [
-#     (1001, 'Mike', 'Stark', 'michael.starkb@gmail.com'),
-#     (1002, 'Bob', 'Smith', 'bob@example.com'),
-#     (1003, 'Carol', 'Davis', 'carol@example.com')
-# ]
-
-# # Insert multiple records
-# cursor.executemany(insert_query, user_data)
-
-# # Save changes
-# conn.commit()
-
-# print(f"Inserted {cursor.rowcount} records successfully")
-
 """
 Student Lab - a small Flask web app for your SQLite database.
 
